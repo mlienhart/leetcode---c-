@@ -11,7 +11,8 @@ public class Solution
         {
             a = a.PadLeft(b.Length, d);
         }
-        else
+
+        if (a.Length > b.Length)
         {
             b = b.PadLeft(a.Length, d);
         }
