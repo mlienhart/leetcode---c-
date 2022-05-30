@@ -2,7 +2,7 @@ public class Solution
 {
     public IList<string> FizzBuzz(int n)
     {
-        var a = new List<string>();
+        List<string> a = new List<string>();
 
         for (int i = 1; i <= n; i++)
         {
